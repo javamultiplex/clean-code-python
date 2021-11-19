@@ -2,7 +2,7 @@ from Employee import Employee
 
 
 class FinITCalculations:
-    def calcIncomeTaxForCurrentYear(self, object):
+    def calcIncomeTaxForCurrentYear(self, employee):
         # TODO: Tax calculation logic
         pass
 

@@ -2,7 +2,7 @@ from Employee import Employee
 
 
 class HRPromotions:
-    def isPromotionDueThisYear(self, object):
+    def isPromotionDueThisYear(self, employee):
         # TODO: Promotion logic
         pass
 
