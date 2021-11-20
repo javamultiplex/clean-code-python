@@ -1,32 +1,35 @@
 class Employee:
-    def __init__(self, id, name, address):
+    def __init__(self, id: int, name: str, address: str) -> None:
         self._id = id
         self._name = name
         self._address = address
 
     @property
-    def id(self):
+    def id(self) -> int:
         return self._id
 
     @id.setter
-    def id(self, newId):
-        self._id = newId
+    def id(self, new_id: int):
+        self._id = new_id
 
     @property
-    def name(self):
+    def name(self) -> str:
         return self._name
 
     @name.setter
-    def name(self, newName):
-        self._name = newName
+    def name(self, new_name: str):
+        self._name = new_name
 
     @property
-    def address(self):
+    def address(self) -> str:
         return self._address
 
     @address.setter
-    def address(self, newAddress):
-        self._address = newAddress
+    def address(self, new_address: str):
+        self._address = new_address
+
+    def __str__(self) -> str:
+        return " ".join([str(self.id), self.name, self.address])
 
 
 if __name__ == '__main__':

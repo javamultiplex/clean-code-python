@@ -2,12 +2,13 @@ from Employee import Employee
 
 
 class FinITCalculations:
-    def calcIncomeTaxForCurrentYear(self, employee):
+    def calcIncomeTaxForCurrentYear(self, employee: Employee) -> bool:
         # TODO: Tax calculation logic
-        pass
+        print(employee)
+        return False
 
 
 if __name__ == '__main__':
     obj = FinITCalculations()
-    e = Employee(101, "Rohit", "Delhi")
+    e = Employee(102, "Rohit", "Delhi")
     obj.calcIncomeTaxForCurrentYear(e)
