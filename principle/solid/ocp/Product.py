@@ -33,4 +33,4 @@ class Product:
         self._size = new_size
 
     def __str__(self) -> str:
-        return self.name + "," + str(self.color) + "," + str(self.size)
+        return "Product[" + self.name + "," + str(self.color) + "," + str(self.size) + "]"
