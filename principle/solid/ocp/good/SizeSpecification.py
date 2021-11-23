@@ -1,8 +1,9 @@
 from principle.solid.ocp.Size import Size
 from principle.solid.ocp.Product import Product
+from principle.solid.ocp.good.Specification import Specification
 
 
-class SizeSpecification:
+class SizeSpecification(Specification):
     def __init__(self, size: Size) -> None:
         self.size = size
 
