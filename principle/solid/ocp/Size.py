@@ -1,5 +1,11 @@
 import enum
 
+"""
+@File      : Size.py   
+@Author    : Rohit Agarwal on 24/11/21 10:18 pm
+@Copyright : https://github.com/javamultiplex
+"""
+
 
 class Size(enum.Enum):
     SMALL = 1

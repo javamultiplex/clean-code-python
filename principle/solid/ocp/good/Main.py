@@ -8,6 +8,12 @@ from principle.solid.ocp.Color import Color
 from principle.solid.ocp.Size import Size
 from typing import List
 
+"""
+@File      : Main.py   
+@Author    : Rohit Agarwal on 24/11/21 10:18 pm
+@Copyright : https://github.com/javamultiplex
+"""
+
 if __name__ == '__main__':
     p1 = Product("Mango", Color.GREEN, Size.LARGE)
     p2 = Product("Apple", Color.RED, Size.SMALL)

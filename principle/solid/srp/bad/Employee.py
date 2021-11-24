@@ -1,3 +1,10 @@
+"""
+@File      : Employee.py
+@Author    : Rohit Agarwal on 24/11/21 10:18 pm
+@Copyright : https://github.com/javamultiplex
+"""
+
+
 class Employee:
     def __init__(self, id: int, name: str, address: str) -> None:
         self._id = id

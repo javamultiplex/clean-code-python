@@ -1,6 +1,12 @@
 from principle.solid.ocp.Color import Color
 from principle.solid.ocp.Size import Size
 
+"""
+@File      : Product.py   
+@Author    : Rohit Agarwal on 24/11/21 10:18 pm
+@Copyright : https://github.com/javamultiplex
+"""
+
 
 class Product:
     def __init__(self, name: str, color: Color, size: Size) -> None:

@@ -1,5 +1,11 @@
 from Employee import Employee
 
+"""
+@File      : FinITCalculations.py   
+@Author    : Rohit Agarwal on 24/11/21 10:18 pm
+@Copyright : https://github.com/javamultiplex
+"""
+
 
 class FinITCalculations:
     def calcIncomeTaxForCurrentYear(self, employee: Employee) -> bool:
