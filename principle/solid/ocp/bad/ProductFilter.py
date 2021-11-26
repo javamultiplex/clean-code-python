@@ -1,4 +1,5 @@
 from typing import List
+
 from principle.solid.ocp.Color import Color
 from principle.solid.ocp.Product import Product
 from principle.solid.ocp.Size import Size

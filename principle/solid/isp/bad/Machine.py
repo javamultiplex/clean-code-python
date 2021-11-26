@@ -1,4 +1,5 @@
 import abc
+
 from principle.solid.isp.Document import Document
 
 """

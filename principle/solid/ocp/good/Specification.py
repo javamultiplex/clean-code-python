@@ -1,4 +1,5 @@
 import abc
+
 from principle.solid.ocp.Product import Product
 
 """

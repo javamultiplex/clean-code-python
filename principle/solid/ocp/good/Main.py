@@ -1,12 +1,13 @@
-from principle.solid.ocp.good.ColorSpecification import ColorSpecification
-from principle.solid.ocp.good.SizeSpecification import SizeSpecification
+from typing import List
+
+from principle.solid.ocp.Color import Color
+from principle.solid.ocp.Product import Product
+from principle.solid.ocp.Size import Size
 from principle.solid.ocp.good.AndSpecification import AndSpecification
+from principle.solid.ocp.good.ColorSpecification import ColorSpecification
 from principle.solid.ocp.good.OrSpecification import OrSpecification
 from principle.solid.ocp.good.ProductFilter import ProductFilter
-from principle.solid.ocp.Product import Product
-from principle.solid.ocp.Color import Color
-from principle.solid.ocp.Size import Size
-from typing import List
+from principle.solid.ocp.good.SizeSpecification import SizeSpecification
 
 """
 @File      : Main.py   

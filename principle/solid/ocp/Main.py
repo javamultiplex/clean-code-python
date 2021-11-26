@@ -1,6 +1,6 @@
-from Size import Size
 from Color import Color
 from Product import Product
+from Size import Size
 
 """
 @File      : Main.py   

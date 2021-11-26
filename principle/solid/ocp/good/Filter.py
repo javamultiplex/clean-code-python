@@ -1,5 +1,6 @@
 import abc
 from typing import List
+
 from principle.solid.ocp.Product import Product
 from principle.solid.ocp.good.Specification import Specification
 

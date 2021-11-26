@@ -1,7 +1,7 @@
+from principle.solid.ocp.Product import Product
 from principle.solid.ocp.good.ColorSpecification import ColorSpecification
 from principle.solid.ocp.good.SizeSpecification import SizeSpecification
 from principle.solid.ocp.good.Specification import Specification
-from principle.solid.ocp.Product import Product
 
 """
 @File      : AndSpecification.py   

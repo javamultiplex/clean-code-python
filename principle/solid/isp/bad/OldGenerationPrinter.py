@@ -1,4 +1,5 @@
 from Machine import Machine
+from UnsupportedOperationError import UnsupportedOperationError
 from principle.solid.isp.Document import Document
 
 """
@@ -14,7 +15,7 @@ class OldGenerationPrinter(Machine):
         print("Print " + str(document))
 
     def scan(self, document: Document) -> None:
-        raise RuntimeError("scan not supported")
+        raise UnsupportedOperationError("scan not supported")
 
     def fax(self, document: Document) -> None:
-        raise RuntimeError("fax not supported")
+        raise UnsupportedOperationError("fax not supported")

@@ -1,6 +1,7 @@
-from principle.solid.ocp.good.Specification import Specification
-from principle.solid.ocp.Product import Product
 from typing import List
+
+from principle.solid.ocp.Product import Product
+from principle.solid.ocp.good.Specification import Specification
 
 """
 @File      : OrSpecification.py   
