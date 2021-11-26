@@ -7,7 +7,7 @@ from UnsupportedOperationError import UnsupportedOperationError
 from principle.solid.isp.Document import Document
 
 
-class MyTestCase(unittest.TestCase):
+class Tests(unittest.TestCase):
 
     def test_new_generation_printer(self):
         new_generation_printer = NewGenerationPrinter()
